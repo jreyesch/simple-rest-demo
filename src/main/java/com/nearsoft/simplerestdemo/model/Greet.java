@@ -1,6 +1,7 @@
 package com.nearsoft.simplerestdemo.model;
 
 public class Greet {
+
     private String to;
     private String from;
     private String message;

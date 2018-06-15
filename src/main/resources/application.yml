@@ -1,2 +1,7 @@
 server:
   port: 8000
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://appUser:appUserPass1@ds261450.mlab.com:61450/heroku_j4tqf8dn
