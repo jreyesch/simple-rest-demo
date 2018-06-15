@@ -1,5 +1,13 @@
 # Compiled class file
 *.class
+/target
+
+#IntelliJ
+.idea/
+*.iml
+
+#mac
+.DS_Store
 
 # Log file
 *.log
