@@ -23,7 +23,7 @@ public class HelloRestControllerTest {
 
     @Test
     public void sayHello() {
-        String expected ="{\"to\":\"Jorge\",\"from\":\"simple-rest-demo\",\"message\":\"Hello there\"}";
+        String expected ="{\"to\":\"Jorge\",\"from\":\"simple-rest-demo\",\"message\":\"Hello there from Mongo\"}";
         String body = this.restTemplate.getForObject("/Jorge", String.class);
         assertThat(body).isEqualTo(expected);
     }
